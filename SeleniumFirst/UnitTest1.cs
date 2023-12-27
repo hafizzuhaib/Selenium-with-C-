@@ -27,7 +27,7 @@ namespace SeleniumFirst
 
             EAPageObject pageEA = pageLogin.Login("Zuhaib", "Lahore");
 
-            pageEA.FillUserForm("Initial","Zuhaib","Hafiz");
+            pageEA.FillUserForm("TitleId", "Initial","Zuhaib","Hafiz");
             
             
             
